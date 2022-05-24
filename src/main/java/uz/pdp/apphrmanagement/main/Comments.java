@@ -1,0 +1,16 @@
+package uz.pdp.apphrmanagement.main;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Comments {
+    private  Integer postId;
+    private  Integer id;
+    private String name;
+    private String email;
+    private String body;
+}
